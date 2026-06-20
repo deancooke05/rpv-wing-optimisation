@@ -21,7 +21,7 @@ The program saves the full set of results as CSV files and produces four graphs.
 
 ## Why I made it
 
-This was my individual coding contribution to a Group 7 aerospace engineering project at the University of the West of England. The wider group task was to design and evaluate a wing for a surveillance Remotely Piloted Vehicle (RPV).
+This was my individual coding contribution to a group aerospace engineering project at the University of the West of England. The wider group task was to design and evaluate a wing for a surveillance Remotely Piloted Vehicle (RPV).
 
 The wider group project compared the SD7003 and NACA 2412 aerofoils using JavaFoil analysis and wind-tunnel testing. The group selected the SD7003 aerofoil for the final design. I wrote this Python optimiser to test the final wing-design space more systematically.
 
@@ -35,8 +35,8 @@ The aerofoil comparison, wind-tunnel work, final wing-design decisions, weight-a
 
 A design is only kept when both checks below are true:
 
-- Lift is greater than or equal to aircraft weight.
-- Available propeller thrust is greater than or equal to total drag.
+- lift is greater than or equal to aircraft weight.
+- available propeller thrust is greater than or equal to total drag.
 
 This prevents the program from choosing a design that looks efficient on paper but would not be able to maintain steady flight.
 
@@ -86,7 +86,7 @@ The final direction prioritised efficient cruise and endurance for the surveilla
 
 ![Power required against wingspan and incidence](media/power_vs_wingspan_incidence.png)
 
-## How to run the project
+## How to run the project :
 
 1. Install Python 3.
 2. Open a terminal in this project folder.
